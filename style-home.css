@@ -1,0 +1,115 @@
+header{
+    background: url(Imagenes/Productos/bg.jpg);
+    padding: 20px 0;  
+}
+
+.contenedor{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.navegador{
+    position: absolute;
+    top: 45%;
+    right: 0;
+}
+
+.navegador li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.navegador a{
+    text-transform: uppercase ;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.navegador a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.banner{
+    padding-top: 20px;
+    width:95%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+    border: 5px solid double;
+    border-radius: 70px;
+    padding-bottom: 15px;
+}
+
+.principal{
+    width: 93%; 
+    margin-left: 3%;
+    background: #CCCCCC;
+    border: 5px solid double;
+    border-radius: 10px;
+
+}
+
+.titulo-centralizado{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+em strong{
+    color:red;
+}
+
+#mision{
+    padding: 10px;
+    font-size: 20px;
+}
+
+#fin{
+    padding-bottom:20px ;
+}
+
+.diferenciales .titulo-centralizado{
+    font-size: 25px;
+}
+
+.items{
+    font-style: italic;
+    margin: 0 0 20px 0;
+}
+
+.diferenciales ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 22px;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    background-image: url(Imagenes/Productos/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    font-size: 13px;
+    color: #ffffff;
+    margin: 20px;
+}
+
+/*CSS PARA NUESTRA HOME*/
